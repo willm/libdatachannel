@@ -1,2 +1,3 @@
 # hello
 os: osx
+install: mkdir build && cd build && cmake -DUSE_JUICE=1 -DUSE_GNUTLS=1 ..
